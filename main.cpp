@@ -77,6 +77,7 @@ int main()
 	int wynik = searchBinary(tab, 0, x, p);
 
     std::cout << wynik+1 << " position" << std::endl;
-
+	
+	delete[] tab;
 	return 0;
 }
